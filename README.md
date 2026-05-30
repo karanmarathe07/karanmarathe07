@@ -1,6 +1,6 @@
 <div align="center">
 
-<img width="100%" alt="banner" src="assets/banner%20-%20Copy.png"/>
+<img width="100%" alt="banner" src="https://raw.githubusercontent.com/karanmarathe07/karanmarathe07/main/assets/banner%20-%20Copy.png"/>
 
 <br/><br/>
 
@@ -174,6 +174,6 @@ Currently exploring:
 
 <div align="center">
 
-<img width="100%" src="assets/Linkedin%20banner%20-%20Copy.png"/>
+<img width="100%" src="https://raw.githubusercontent.com/karanmarathe07/karanmarathe07/main/assets/Linkedin%20banner%20-%20Copy.png"/>
 
 </div>
