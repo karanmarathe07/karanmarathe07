@@ -1,10 +1,10 @@
 <div align="center">
 
-<img width="100%" alt="banner" src="YOUR_CUSTOM_BANNER_IMAGE"/>
+<img width="100%" alt="banner" src="assets/banner%20-%20Copy.png"/>
 
 <br/><br/>
 
-<img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=600&size=25&duration=3000&pause=1000&color=A78BFA&center=true&vCenter=true&width=1000&lines=Karan+Marathe;Full+Stack+Developer+%7C+Applied+ML+Engineer;Building+AI-Powered+Digital+Experiences;MERN+%7C+React+%7C+Next.js+%7C+Python;Cloud+%26+DevOps+Explorer;Scalable+Systems+%7C+Intelligent+Products" />
+<img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=600&size=25&duration=3000&pause=1000&color=A78BFA&center=true&vCenter=true&width=1000&lines=Karan+Marathe;Full+Stack+Dev;Applied+ML+Engineer;Building+Scalable+AI+Systems"/>
 
 <br/><br/>
 
@@ -41,7 +41,7 @@ Currently exploring:
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=react,nextjs,nodejs,express,typescript,javascript,python,java,c,mongodb,postgresql,prisma,tailwind,flutter,firebase,docker,kubernetes,aws,git,github,linux,vscode,postman,figma&perline=8" />
+<img src="https://skillicons.dev/icons?i=react,nextjs,nodejs,express,typescript,javascript,python,java,c,mongodb,postgresql,prisma,tailwind,flutter,firebase,docker,kubernetes,aws,git,github,linux,figma"/>
 
 </div>
 
@@ -154,7 +154,7 @@ Currently exploring:
 <img src="https://skillicons.dev/icons?i=gmail" height="55"/>
 </a>
 
-<a href="https://github.com/YOUR_GITHUB_USERNAME">
+<a href="https://github.com/karanmarathe07">
 <img src="https://skillicons.dev/icons?i=github" height="55"/>
 </a>
 
@@ -174,6 +174,6 @@ Currently exploring:
 
 <div align="center">
 
-<img width="100%" src="YOUR_CUSTOM_FOOTER_IMAGE"/>
+<img width="100%" src="assets/Linkedin%20banner%20-%20Copy.png"/>
 
 </div>
