@@ -1,15 +1,179 @@
-# 💫 About Me:
-Hi 👋 I'm Karan Marathe  <br>Full Stack Developer in Training | Cloud & DevOps Explorer<br><br>I’m passionate about building modern web applications and understanding how cloud technologies shape scalable systems. Currently, I'm sharpening my skills in full-stack development and backend engineering using the MERN stack, Java, and AWS services. I love experimenting with new tools, learning through real projects, and writing clean, efficient code.<br><br>🌍 Based in Vadodara, Gujarat, India  <br>🎓 Pursuing B.Tech CSE at Parul University  <br>📧 Email: karanmarathe458@gmail.com  <br>🔗 Portfolio/Links: LinkedIn | GitHub  <br>🚀 Working on: Java Servlets, Spring Boot APIs, MERN applications  <br>🧠 Learning: MongoDB, SQL, TypeScript, AWS Cloud, DevOps fundamentals  <br>🤝 Open to collaborating on cloud, full-stack, or backend-focused projects  <br>⚡ Fun Fact: I enjoy crafting smooth animations, solving tricky bugs, and making UIs that look *too clean to be real* 😄  <br>
+<div align="center">
 
-## 🌐 Socials:
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/karan-marathe) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:karannmarathe32@gmail.com) [![GitHub](https://img.shields.io/badge/GitHub-100000?logo=github&logoColor=white)](https://github.com/karanmarathe07)
+<img width="100%" alt="banner" src="YOUR_CUSTOM_BANNER_IMAGE"/>
 
+<br/><br/>
 
-# 💻 Tech Stack:
-![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white) ![Go](https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white) ![Prisma](https://img.shields.io/badge/Prisma-3982CE?style=for-the-badge&logo=Prisma&logoColor=white) ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white) ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white) ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white) ![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white) ![Kubernetes](https://img.shields.io/badge/kubernetes-%23326ce5.svg?style=for-the-badge&logo=kubernetes&logoColor=white) ![Hibernate](https://img.shields.io/badge/Hibernate-59666C?style=for-the-badge&logo=Hibernate&logoColor=white) ![AmazonDynamoDB](https://img.shields.io/badge/Amazon%20DynamoDB-4053D6?style=for-the-badge&logo=Amazon%20DynamoDB&logoColor=white) ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white) ![Adobe After Effects](https://img.shields.io/badge/Adobe%20After%20Effects-9999FF.svg?style=for-the-badge&logo=Adobe%20After%20Effects&logoColor=white)
+<img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=600&size=25&duration=3000&pause=1000&color=A78BFA&center=true&vCenter=true&width=1000&lines=Karan+Marathe;Full+Stack+Developer+%7C+Applied+ML+Engineer;Building+AI-Powered+Digital+Experiences;MERN+%7C+React+%7C+Next.js+%7C+Python;Cloud+%26+DevOps+Explorer;Scalable+Systems+%7C+Intelligent+Products" />
 
+<br/><br/>
+
+<img src="https://img.shields.io/github/followers/kmarathe?style=for-the-badge&logo=github&color=A78BFA&labelColor=0D1117"/>
+
+<img src="https://komarev.com/ghpvc/?username=kmarathe&style=for-the-badge&color=A78BFA&label=Profile+Views"/>
+
+<img src="https://img.shields.io/badge/Open%20To-Collaboration-A78BFA?style=for-the-badge&labelColor=0D1117"/>
+
+<img src="https://img.shields.io/badge/Focused%20On-AI%20%26%20FullStack-A78BFA?style=for-the-badge&labelColor=0D1117"/>
+
+</div>
 
 ---
-[![](https://visitcount.itsvg.in/api?id=karanmarathe07&icon=0&color=0)](https://visitcount.itsvg.in)
 
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+# 👨‍💻 About Me
+
+Hi, I'm **Karan Marathe** — a passionate **Full Stack Developer** and **Applied ML Engineer** focused on building scalable, intelligent, and high-performance digital products.
+
+I enjoy combining modern frontend engineering with powerful backend systems and AI capabilities to create production-ready applications with meaningful user experiences.
+
+Currently exploring:
+
+- ☁️ Cloud Computing & AWS
+- ⚙️ DevOps & CI/CD
+- 🔐 Cloud Security (CloudSec)
+- 🤖 AI-Powered Systems
+- 🧠 Scalable Backend Architecture
+- 🚀 Real-Time Intelligent Applications
+
+---
+
+# ⚡ Tech Stack
+
+<div align="center">
+
+<img src="https://skillicons.dev/icons?i=react,nextjs,nodejs,express,typescript,javascript,python,java,c,mongodb,postgresql,prisma,tailwind,flutter,firebase,docker,kubernetes,aws,git,github,linux,vscode,postman,figma&perline=8" />
+
+</div>
+
+---
+
+# 🚀 Featured Projects
+
+## 🎙️ Edith — AI Voice Assistant
+
+> Multimodal AI assistant powered by Google Gemini Live API with real-time voice, vision, gesture, and autonomous system interaction.
+
+### ✨ Features
+
+- 🎤 Real-time Voice Interaction
+- 👁️ Vision + Gesture Recognition
+- 🧠 Persistent AI Memory
+- 🔐 Face ID Authentication
+- ⚡ Workflow Automation
+- 🚀 Sub-200ms Voice Response Latency
+
+### 🛠️ Tech Used
+
+`React` `TypeScript` `Gemini API` `AI Systems`
+
+---
+
+## 🏡 Real Estate Price Prediction System
+
+> AI-powered machine learning system designed for scalable predictive analytics.
+
+### ✨ Highlights
+
+- 📈 Achieved **91% R² Accuracy**
+- ⚙️ Optimized ML Pipelines
+- 📊 Reduced RMSE significantly
+- 🧠 Feature Engineering
+- 🔄 Large-scale Synthetic Data Generation
+
+### 🛠️ Tech Used
+
+`Python` `Scikit-learn` `Pandas` `NumPy`
+
+---
+
+## 🌌 Naxshtra AI
+
+> Modern high-performance AI website built with scalable frontend architecture and premium UI design.
+
+### ✨ Features
+
+- ⚡ 98/100 Lighthouse Score
+- 🎨 Modern UI/UX
+- 🚀 Optimized Performance
+- 📱 Responsive Design
+- 💎 Premium Interface
+
+### 🛠️ Tech Used
+
+`React` `TypeScript` `Tailwind CSS` `Vite`
+
+🔗 https://naxshtraai.vercel.app/
+
+---
+
+# 💼 Experience
+
+## 🚀 Applied ML Intern — Uplyx Solutions
+
+- Built AI-powered predictive systems using Python
+- Engineered ML pipelines with scalable architecture
+- Improved model accuracy using feature engineering
+- Optimized preprocessing workflows and evaluation systems
+
+---
+
+## 💻 Software Development Intern — NPIT
+
+- Built responsive frontend interfaces
+- Worked with Git/GitHub workflows
+- Implemented CI/CD concepts
+- Improved development collaboration and deployment efficiency
+
+---
+
+# 📊 GitHub Analytics
+
+<div align="center">
+
+<img width="49%" src="https://github-readme-stats.vercel.app/api?username=kmarathe&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117"/>
+
+<img width="49%" src="https://streak-stats.demolab.com?user=kmarathe&theme=tokyonight&hide_border=true&background=0D1117"/>
+
+<br/><br/>
+
+<img width="98%" src="https://github-readme-activity-graph.vercel.app/graph?username=kmarathe&theme=tokyo-night&hide_border=true&area=true"/>
+
+</div>
+
+---
+
+# 🌐 Connect With Me
+
+<div align="center">
+
+<a href="YOUR_LINKEDIN_LINK">
+<img src="https://skillicons.dev/icons?i=linkedin" height="55"/>
+</a>
+
+<a href="mailto:karanmarathe32@gmail.com">
+<img src="https://skillicons.dev/icons?i=gmail" height="55"/>
+</a>
+
+<a href="https://github.com/YOUR_GITHUB_USERNAME">
+<img src="https://skillicons.dev/icons?i=github" height="55"/>
+</a>
+
+</div>
+
+---
+
+<div align="center">
+
+# 💭 Developer Philosophy
+
+> *"Technology creates real impact when intelligence, scalability, and user experience come together."*
+
+</div>
+
+---
+
+<div align="center">
+
+<img width="100%" src="YOUR_CUSTOM_FOOTER_IMAGE"/>
+
+</div>
