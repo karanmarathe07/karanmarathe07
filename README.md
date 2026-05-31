@@ -1,10 +1,10 @@
 <div align="center">
 
-<img width="100%" alt="banner" src="https://raw.githubusercontent.com/karanmarathe07/karanmarathe07/main/assets/banner%20-%20Copy.png"/>
+<img width="100%" alt="banner" src="https://raw.githubusercontent.com/karanmarathe07/karanmarathe07/main/assets/Linkedin%20banner.png"/>
 
 <br/><br/>
 
-<img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=600&size=25&duration=3000&pause=1000&color=A78BFA&center=true&vCenter=true&width=1000&lines=Karan+Marathe;Full+Stack+Dev;Applied+ML+Engineer;Building+Scalable+AI+Systems"/>
+<img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=600&size=25&duration=3000&pause=1000&color=A78BFA&center=true&vCenter=true&width=1000&lines=Karan+Marathe;Full+Stack+Dev[...]
 
 <br/><br/>
 
@@ -41,7 +41,7 @@ Currently exploring:
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=react,nextjs,nodejs,express,typescript,javascript,python,java,c,mongodb,postgresql,prisma,tailwind,flutter,firebase,docker,kubernetes,aws,git,github,linux,figma"/>
+<img src="https://skillicons.dev/icons?i=react,nextjs,nodejs,express,typescript,javascript,python,java,c,mongodb,postgresql,prisma,tailwind,flutter,firebase,docker,kubernetes,aws,git,github,linux,[...]
 
 </div>
 
@@ -174,6 +174,6 @@ Currently exploring:
 
 <div align="center">
 
-<img width="100%" src="https://raw.githubusercontent.com/karanmarathe07/karanmarathe07/main/assets/Linkedin%20banner%20-%20Copy.png"/>
+<img width="100%" src="https://raw.githubusercontent.com/karanmarathe07/karanmarathe07/main/assets/Footer.png"/>
 
 </div>
