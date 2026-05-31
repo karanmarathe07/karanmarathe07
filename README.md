@@ -4,10 +4,6 @@
 
 <br/><br/>
 
-<img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=600&size=25&duration=3000&pause=1000&color=A78BFA&center=true&vCenter=true&width=1000&lines=Karan+Marathe;Full+Stack+Dev[...]
-
-<br/><br/>
-
 <img src="https://img.shields.io/github/followers/kmarathe?style=for-the-badge&logo=github&color=A78BFA&labelColor=0D1117"/>
 
 <img src="https://komarev.com/ghpvc/?username=kmarathe&style=for-the-badge&color=A78BFA&label=Profile+Views"/>
