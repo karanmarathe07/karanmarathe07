@@ -70,100 +70,50 @@
 </div>
 ```
 
-```aura width=800 height=480
-<div style={{ position: 'relative', display: 'flex', flexDirection: 'column', width: '100%', height: '100%', background: '#08080d', borderRadius: 20, border: '1px solid rgba(255, 255, 255, 0.08)', padding: '24px 32px', boxSizing: 'border-box', fontFamily: 'Inter, sans-serif', overflow: 'hidden' }}>
-  <style>{`
-    @keyframes floating {
-      0%, 100% { transform: translateY(0px); }
-      50% { transform: translateY(-8px); }
-    }
-    @keyframes pulsing {
-      0%, 100% { opacity: 0.8; }
-      50% { opacity: 1; }
-    }
-    #hk-char { animation: floating 5s ease-in-out infinite; }
-    #pixel-char { animation: floating 4s ease-in-out infinite 0.5s; }
-  `}</style>
+<br/>
 
-  {/* Header Stats bar */}
-  <div style={{ display: 'flex', justifyContent: 'center', gap: 16, marginBottom: 20 }}>
-    <div style={{ display: 'flex', background: '#11111b', border: '1px solid rgba(255,255,255,0.08)', borderRadius: 6, overflow: 'hidden', fontSize: 11, fontWeight: 600 }}>
-      <span style={{ color: 'rgba(255,255,255,0.4)', padding: '6px 12px', background: '#161622', textTransform: 'uppercase', letterSpacing: 1 }}>Profile Views</span>
-      <span style={{ color: '#a78bfa', padding: '6px 12px', background: '#11111b' }}>1,091</span>
-    </div>
-    <div style={{ display: 'flex', background: '#11111b', border: '1px solid rgba(255,255,255,0.08)', borderRadius: 6, overflow: 'hidden', fontSize: 11, fontWeight: 600 }}>
-      <span style={{ color: 'rgba(255,255,255,0.4)', padding: '6px 12px', background: '#161622', textTransform: 'uppercase', letterSpacing: 1 }}>★ Stars</span>
-      <span style={{ color: '#a78bfa', padding: '6px 12px', background: '#11111b' }}>5</span>
-    </div>
-    <div style={{ display: 'flex', background: '#11111b', border: '1px solid rgba(255,255,255,0.08)', borderRadius: 6, overflow: 'hidden', fontSize: 11, fontWeight: 600 }}>
-      <span style={{ color: 'rgba(255,255,255,0.4)', padding: '6px 12px', background: '#161622', textTransform: 'uppercase', letterSpacing: 1 }}>👥 Followers</span>
-      <span style={{ color: '#a78bfa', padding: '6px 12px', background: '#11111b' }}>5</span>
-    </div>
-  </div>
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=kmarathe&style=flat-square&color=black&labelColor=333333&label=PROFILE+VIEWS" />
+  <img src="https://img.shields.io/badge/★_STARS-5-black?style=flat-square&labelColor=333333" />
+  <img src="https://img.shields.io/github/followers/kmarathe?style=flat-square&color=black&labelColor=333333&label=👥_FOLLOWERS" />
+</p>
 
-  {/* Section 1: Who am I */}
-  <div style={{ display: 'flex', flexDirection: 'row', gap: 24, width: '100%', alignItems: 'center', marginBottom: 20 }}>
-    <div style={{ display: 'flex', width: 120, justifyContent: 'center', flexShrink: 0 }}>
-      <img id="hk-char" src="https://media.giphy.com/media/A7p8Pz2Jrwvks/giphy.gif" width={110} height={110} style={{ width: 110, height: 110, objectFit: 'contain' }} />
-    </div>
-    <div style={{ display: 'flex', flexDirection: 'column', flex: 1 }}>
-      <span style={{ fontSize: 16, fontWeight: 700, color: '#ffffff', letterSpacing: 0.5, marginBottom: 8, textTransform: 'uppercase', color: '#a78bfa' }}>Who am I?</span>
-      <div style={{ display: 'flex', flexWrap: 'wrap', fontSize: 13, color: 'rgba(255,255,255,0.65)', lineHeight: 1.6 }}>
-        Hi, I'm <span style={{ fontWeight: 600, color: '#ffffff' }}>Karan Marathe</span>. I am a <span style={{ background: 'rgba(255,255,255,0.06)', padding: '1px 6px', borderRadius: 4, color: '#ffffff', border: '1px solid rgba(255,255,255,0.08)' }}>Full Stack Developer</span> and <span style={{ background: 'rgba(255,255,255,0.06)', padding: '1px 6px', borderRadius: 4, color: '#ffffff', border: '1px solid rgba(255,255,255,0.08)' }}>Applied ML Engineer</span> focused on building scalable, intelligent, and high-performance digital products. I combine modern frontend engineering with powerful backend systems and <span style={{ background: 'rgba(255,255,255,0.06)', padding: '1px 6px', borderRadius: 4, color: '#ffffff', border: '1px solid rgba(255,255,255,0.08)' }}>AI capabilities</span> to create seamless, production-ready experiences.
-      </div>
-    </div>
-  </div>
+---
 
-  {/* Divider */}
-  <div style={{ width: '100%', height: 1, background: 'rgba(255,255,255,0.06)', marginBottom: 20 }}></div>
+<img align="left" width="130" src="https://media.giphy.com/media/A7p8Pz2Jrwvks/giphy.gif" style="margin-right: 25px; margin-bottom: 15px;" />
 
-  {/* Section 2: Checklist & Bottom part */}
-  <div style={{ display: 'flex', flexDirection: 'row', gap: 24, width: '100%', flex: 1 }}>
-    <div style={{ display: 'flex', flexDirection: 'column', flex: 1 }}>
-      <div style={{ display: 'flex', alignItems: 'center', marginBottom: 12 }}>
-        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#a78bfa" strokeWidth="2" style={{ marginRight: 8 }}>
-          <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2" />
-          <circle cx="12" cy="7" r="4" />
-        </svg>
-        <span style={{ fontSize: 15, fontWeight: 700, color: '#ffffff', letterSpacing: 0.5 }}>A Little More About Me</span>
-      </div>
+### Quem Sou Eu? / Who am I?
 
-      {/* Checklist items */}
-      <div style={{ display: 'flex', flexDirection: 'column', gap: 8 }}>
-        {[
-          'I love surrounding myself with experienced developers who challenge me to grow.',
-          'Currently building high-performance systems with React, TypeScript & AI.',
-          'Always open to collaborating on open-source projects or mentoring.',
-          'Passionate about large-scale problems that push cognitive limits.',
-          'Minimalist at heart, focused on clean architecture and micro-optimizations.'
-        ].map((item, i) => (
-          <div key={i} style={{ display: 'flex', alignItems: 'center' }}>
-            <div style={{ width: 14, height: 14, border: '1.5px solid #a78bfa', borderRadius: 3, display: 'flex', alignItems: 'center', justifyContent: 'center', marginRight: 10, background: 'rgba(167, 139, 250, 0.08)', flexShrink: 0 }}>
-              <svg width="8" height="8" viewBox="0 0 8 8" fill="none">
-                <path d="M1 4L3 6L7 2" stroke="#a78bfa" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-              </svg>
-            </div>
-            <span style={{ fontSize: 12.5, color: 'rgba(255, 255, 255, 0.75)' }}>{item}</span>
-          </div>
-        ))}
-      </div>
+Hi, I'm **Karan Marathe** — a passionate **Full Stack Developer** and **Applied ML Engineer** focused on building scalable, intelligent, and high-performance digital products.
 
-      {/* Mini Brand Icons */}
-      <div style={{ display: 'flex', gap: 12, marginTop: 20, alignItems: 'center' }}>
-        <img src="https://img.icons8.com/color/48/gmail-new.png" width={18} height={18} style={{ width: 18, height: 18 }} />
-        <img src="https://img.icons8.com/color/48/linkedin.png" width={18} height={18} style={{ width: 18, height: 18 }} />
-        <img src="https://img.icons8.com/color/48/spotify.png" width={18} height={18} style={{ width: 18, height: 18 }} />
-        <img src="https://img.icons8.com/ios-glyphs/90/ffffff/github.png" width={18} height={18} style={{ width: 18, height: 18 }} />
-      </div>
-    </div>
+I enjoy combining modern frontend engineering with powerful backend systems and **AI capabilities** to create production-ready applications with meaningful user experiences.
 
-    {/* Right animated character */}
-    <div style={{ display: 'flex', width: 140, justifyContent: 'center', alignItems: 'center', flexShrink: 0 }}>
-      <img id="pixel-char" src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExZW95cTRnOXM1dTc1YTFwNjRkcGNkN2RqYjdhdTB3NTc3NDFiNjFxYyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/h58dtf5vTpjulO4M5o/giphy.gif" width={85} height={85} style={{ width: 85, height: 85, objectFit: 'contain' }} />
-    </div>
-  </div>
-</div>
-```
+<br clear="left" />
+
+---
+
+<img align="right" width="105" src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExZW95cTRnOXM1dTc1YTFwNjRkcGNkN2RqYjdhdTB3NTc3NDFiNjFxYyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/h58dtf5vTpjulO4M5o/giphy.gif" style="margin-left: 25px; margin-bottom: 15px;" />
+
+### 👤 Um Pouco Mais Sobre Mim / A Little More About Me
+
+* ☑️ I love surrounding myself with experienced developers who challenge me to grow.
+* ☑️ Currently building high-performance systems with React, TypeScript & AI.
+* ☑️ Always open to collaborating on open-source projects or mentoring.
+* ☑️ Passionate about large-scale problems that push cognitive limits.
+* ☑️ Minimalist at heart, focused on clean architecture and micro-optimizations.
+
+<br/>
+
+<p align="left">
+  <a href="mailto:karanmarathe32@gmail.com"><img src="https://img.icons8.com/color/48/gmail-new.png" width="30" height="30" style="margin-right: 12px;" /></a>
+  <a href="https://www.linkedin.com/in/karanmarathe07/"><img src="https://img.icons8.com/color/48/linkedin.png" width="30" height="30" style="margin-right: 12px;" /></a>
+  <a href="https://github.com/karanmarathe07"><img src="https://img.icons8.com/ios-glyphs/90/ffffff/github.png" width="30" height="30" style="margin-right: 12px;" /></a>
+  <a href="https://open.spotify.com"><img src="https://img.icons8.com/color/48/spotify.png" width="30" height="30" style="margin-right: 12px;" /></a>
+</p>
+
+<br clear="right" />
+
+---
 
 ```aura width=800 height=200
 <div style={{ position: 'relative', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', width: '100%', height: '100%', background: '#08080d', borderRadius: 20, overflow: 'hidden', fontFamily: 'Inter, sans-serif' }}>
@@ -208,91 +158,6 @@
   </div>
 </div>
 ```
-
-```aura width=120 height=44 link="https://github.com/karanmarathe07" inline align=center
-<SocialMediaButton
-  icon="https://cdn.simpleicons.org/github/ffffff"
-  text="GitHub"
-  backgroundColor="#141414"
-  width={120}
-  height={44}
-  gradientStops={[
-    { offset: '0%', color: '#ffffff' },
-    { offset: '10%', color: '#111111' },
-    { offset: '50%', color: '#eeeeee' },
-    { offset: '60%', color: '#ffffff' },
-    { offset: '80%', color: '#111111' },
-    { offset: '100%', color: '#555555' },
-  ]}
-/>
-```
-
-```aura width=138 height=44 link="https://www.linkedin.com/in/karanmarathe07/" inline align=center
-<SocialMediaButton
-  icon="https://img.icons8.com/ios-glyphs/90/ffffff/linkedin.png"
-  text="LinkedIn"
-  backgroundColor="#0a2540"
-  width={138}
-  height={44}
-  gradientStops={[
-    { offset: '0%', color: '#ffffff' },
-    { offset: '10%', color: '#111111' },
-    { offset: '50%', color: '#eeeeee' },
-    { offset: '60%', color: '#0A66C2' },
-    { offset: '80%', color: '#111111' },
-    { offset: '100%', color: '#002f6c' },
-  ]}
-/>
-```
-
-```aura width=120 height=44 link="mailto:karanmarathe32@gmail.com" inline align=center
-<SocialMediaButton
-  icon="https://cdn.simpleicons.org/gmail/ffffff"
-  text="Email"
-  backgroundColor="#2b0a0a"
-  width={120}
-  height={44}
-  gradientStops={[
-    { offset: '0%', color: '#ffffff' },
-    { offset: '10%', color: '#111111' },
-    { offset: '50%', color: '#eeeeee' },
-    { offset: '60%', color: '#EA4335' },
-    { offset: '80%', color: '#111111' },
-    { offset: '100%', color: '#555555' },
-  ]}
-/>
-```
-
-<br/>
-
-<div align="center">
-
-<img src="https://img.shields.io/github/followers/kmarathe?style=for-the-badge&logo=github&color=A78BFA&labelColor=0D1117"/>
-
-<img src="https://komarev.com/ghpvc/?username=kmarathe&style=for-the-badge&color=A78BFA&label=Profile+Views"/>
-
-<img src="https://img.shields.io/badge/Open%20To-Collaboration-A78BFA?style=for-the-badge&labelColor=0D1117"/>
-
-<img src="https://img.shields.io/badge/Focused%20On-AI%20%26%20FullStack-A78BFA?style=for-the-badge&labelColor=0D1117"/>
-
-</div>
-
----
-
-# 👨‍💻 About Me
-
-Hi, I'm **Karan Marathe** — a passionate **Full Stack Developer** and **Applied ML Engineer** focused on building scalable, intelligent, and high-performance digital products.
-
-I enjoy combining modern frontend engineering with powerful backend systems and AI capabilities to create production-ready applications with meaningful user experiences.
-
-Currently exploring:
-
-- ☁️ Cloud Computing & AWS
-- ⚙️ DevOps & CI/CD
-- 🔐 Cloud Security (CloudSec)
-- 🤖 AI-Powered Systems
-- 🧠 Scalable Backend Architecture
-- 🚀 Real-Time Intelligent Applications
 
 ---
 
