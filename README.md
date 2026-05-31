@@ -117,7 +117,21 @@ Currently exploring:
 * Worked with Git/GitHub workflows
 * Implemented CI/CD concepts
 * Improved development collaboration and deployment efficiency
+
+***
+
+# 📊 GitHub Analytics
+
+<div align="center">
+
+<img width="49%" src="https://github-readme-stats.vercel.app/api?username=kmarathe&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117"/>
+
+<img width="49%" src="https://streak-stats.demolab.com?user=kmarathe&theme=tokyonight&hide_border=true&background=0D1117"/>
+
 <br/><br/>
+
+<img width="98%" src="https://github-readme-activity-graph.vercel.app/graph?username=kmarathe&theme=tokyo-night&hide_border=true&area=true"/>
+
 </div>
 
 ***
