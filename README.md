@@ -4,7 +4,7 @@
 
 <h2 align="center">Who Am I?</h2>
 
-<img align="left" width="250" src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExbmVyNmVtYnVubXg1Mmw1MTZ5Y29hdXN0dzJlOTFtNzVmNWwycmgxbyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/fVsVfxVwz40I24GT7X/giphy.gif" alt="hollow knight coding" style="padding-right:20px;" />
+<img align="left" width="250" src="./assets/Tick.png" alt="Tick image" style="padding-right:20px;" />
 
 <p>I am a <strong>Full-stack developer and applied ML engineer</strong> with experience building AI-powered applications using React, Python, and LangChain. I'm passionate about combining modern frontend engineering with intelligent backend systems to deliver scalable, production-ready products.</p>
 
