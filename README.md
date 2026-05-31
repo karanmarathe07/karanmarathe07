@@ -1,7 +1,7 @@
 ![Banner](./assets/Linkedin%20banner.png)
 
 <p align="center">
-<a href="https://github.com/karanmarathe07"><img src="./.github/assets/readme-aura-component-0-f256bffb.svg" width="120" height="44" /></a><a href="https://linkedin.com/in/karanmarathe32"><img src="./.github/assets/readme-aura-component-1-711d622c.svg" width="138" height="44" /></a><a href="mailto:karanmarathe32@gmail.com"><img src="./.github/assets/readme-aura-component-2-424bcad9.svg" width="130" height="44" /></a>
+<a href="https://github.com/karanmarathe07"><img src="./.github/assets/readme-aura-component-0-f256bffb.svg" width="120" height="44" /></a><a href="https://linkedin.com/in/karanmarathe32"><img src="./.github/assets/readme-aura-component-1-bd70f608.svg" width="138" height="44" /></a><a href="mailto:karanmarathe32@gmail.com"><img src="./.github/assets/readme-aura-component-2-f73700cc.svg" width="130" height="44" /></a>
 </p>
 
 <br/>
