@@ -70,72 +70,96 @@
 </div>
 ```
 
-```aura width=800 height=220
-<div style={{ display: 'flex', flexDirection: 'row', gap: 16, width: '100%', height: '100%', fontFamily: 'Inter, sans-serif' }}>
+```aura width=800 height=480
+<div style={{ position: 'relative', display: 'flex', flexDirection: 'column', width: '100%', height: '100%', background: '#08080d', borderRadius: 20, border: '1px solid rgba(255, 255, 255, 0.08)', padding: '24px 32px', boxSizing: 'border-box', fontFamily: 'Inter, sans-serif', overflow: 'hidden' }}>
   <style>{`
-    @keyframes about-orb-l { 0%, 100% { transform: translate(0,0); opacity: 0.65; } 50% { transform: translate(20px,-14px); opacity: 0.9; } }
-    @keyframes about-orb-r { 0%, 100% { transform: translate(0,0); opacity: 0.55; } 50% { transform: translate(-16px,12px); opacity: 0.8; } }
-    @keyframes about-ring { 0%, 100% { opacity: 0.07; } 50% { opacity: 0.2; } }
-    @keyframes about-ring-b { 0%, 100% { opacity: 0.04; } 50% { opacity: 0.13; } }
-    @keyframes cursor-blink { 0%, 100% { opacity: 1; } 49% { opacity: 1; } 50% { opacity: 0; } 99% { opacity: 0; } }
-    #ab-o1 { animation: about-orb-l 8s ease-in-out infinite; }
-    #ab-o2 { animation: about-orb-r 10s ease-in-out infinite 1s; }
-    #ab-o3 { animation: about-orb-l 7s ease-in-out infinite 2s; }
-    #ab-r1 { animation: about-ring 7s ease-in-out infinite; }
-    #ab-r2 { animation: about-ring 7s ease-in-out infinite 2s; }
-    #ab-r3 { animation: about-ring-b 7s ease-in-out infinite 3.5s; }
-    #ab-cursor { animation: cursor-blink 1.1s step-end infinite; }
+    @keyframes floating {
+      0%, 100% { transform: translateY(0px); }
+      50% { transform: translateY(-8px); }
+    }
+    @keyframes pulsing {
+      0%, 100% { opacity: 0.8; }
+      50% { opacity: 1; }
+    }
+    #hk-char { animation: floating 5s ease-in-out infinite; }
+    #pixel-char { animation: floating 4s ease-in-out infinite 0.5s; }
   `}</style>
 
-  <div style={{ position: 'relative', display: 'flex', flex: 1, height: '100%', background: '#08080d', borderRadius: 16, overflow: 'hidden' }}>
-    <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExbmVyNmVtYnVubXg1Mmw1MTZ5Y29hdXN0dzJlOTFtNzVmNWwycmgxbyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/fVsVfxVwz40I24GT7X/giphy.gif" style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', objectFit: 'cover', opacity: 0.35 }} />
-    <svg width="100%" height="220" style={{ position: 'absolute', top: 0, left: 0 }}>
-      <defs>
-        <radialGradient id="ab-gl" cx="50%" cy="50%" r="50%">
-          <stop offset="0%" stopColor="rgba(108,195,130,0.6)" />
-          <stop offset="100%" stopColor="rgba(108,195,130,0)" />
-        </radialGradient>
-        <radialGradient id="ab-gr" cx="50%" cy="50%" r="50%">
-          <stop offset="0%" stopColor="rgba(230,100,115,0.5)" />
-          <stop offset="100%" stopColor="rgba(230,100,115,0)" />
-        </radialGradient>
-        <radialGradient id="ab-gb" cx="50%" cy="50%" r="50%">
-          <stop offset="0%" stopColor="rgba(195,155,255,0.35)" />
-          <stop offset="100%" stopColor="rgba(195,155,255,0)" />
-        </radialGradient>
-      </defs>
-      <ellipse id="ab-o1" cx="40"  cy="180" rx="130" ry="110" fill="url(#ab-gl)" />
-      <ellipse id="ab-o2" cx="320" cy="40"  rx="120" ry="100" fill="url(#ab-gr)" />
-      <ellipse id="ab-o3" cx="260" cy="200" rx="100" ry="90"  fill="url(#ab-gb)" />
-      <circle id="ab-r1" cx="165" cy="110" r="38"  fill="none" stroke="rgba(255,255,255,0.9)" strokeWidth="0.7" />
-      <circle id="ab-r2" cx="165" cy="110" r="65"  fill="none" stroke="rgba(255,255,255,0.9)" strokeWidth="0.7" />
-      <circle id="ab-r3" cx="165" cy="110" r="100" fill="none" stroke="rgba(255,255,255,0.9)" strokeWidth="0.7" />
-    </svg>
-    <div style={{ position: 'relative', display: 'flex', flexDirection: 'column', justifyContent: 'center', padding: '0 28px', zIndex: 10 }}>
-      <span style={{ fontSize: 11, color: 'rgba(255,255,255,0.35)', letterSpacing: 3, textTransform: 'uppercase', marginBottom: 10 }}>about</span>
-      <span style={{ fontSize: 22, fontWeight: 600, color: '#ffffff', lineHeight: 1.3 }}>Building things</span>
-      <span style={{ fontSize: 22, fontWeight: 600, color: '#ffffff', lineHeight: 1.3 }}>that matter.</span>
-      <div style={{ display: 'flex', alignItems: 'center', marginTop: 14 }}>
-        <span style={{ fontSize: 13, color: 'rgba(255,255,255,0.45)', fontFamily: 'monospace' }}>{'> open to collaborations'}</span>
-        <span id="ab-cursor" style={{ fontSize: 13, color: 'rgba(255,255,255,0.6)', fontFamily: 'monospace', marginLeft: 1 }}>_</span>
+  {/* Header Stats bar */}
+  <div style={{ display: 'flex', justifyContent: 'center', gap: 16, marginBottom: 20 }}>
+    <div style={{ display: 'flex', background: '#11111b', border: '1px solid rgba(255,255,255,0.08)', borderRadius: 6, overflow: 'hidden', fontSize: 11, fontWeight: 600 }}>
+      <span style={{ color: 'rgba(255,255,255,0.4)', padding: '6px 12px', background: '#161622', textTransform: 'uppercase', letterSpacing: 1 }}>Profile Views</span>
+      <span style={{ color: '#a78bfa', padding: '6px 12px', background: '#11111b' }}>1,091</span>
+    </div>
+    <div style={{ display: 'flex', background: '#11111b', border: '1px solid rgba(255,255,255,0.08)', borderRadius: 6, overflow: 'hidden', fontSize: 11, fontWeight: 600 }}>
+      <span style={{ color: 'rgba(255,255,255,0.4)', padding: '6px 12px', background: '#161622', textTransform: 'uppercase', letterSpacing: 1 }}>★ Stars</span>
+      <span style={{ color: '#a78bfa', padding: '6px 12px', background: '#11111b' }}>5</span>
+    </div>
+    <div style={{ display: 'flex', background: '#11111b', border: '1px solid rgba(255,255,255,0.08)', borderRadius: 6, overflow: 'hidden', fontSize: 11, fontWeight: 600 }}>
+      <span style={{ color: 'rgba(255,255,255,0.4)', padding: '6px 12px', background: '#161622', textTransform: 'uppercase', letterSpacing: 1 }}>👥 Followers</span>
+      <span style={{ color: '#a78bfa', padding: '6px 12px', background: '#11111b' }}>5</span>
+    </div>
+  </div>
+
+  {/* Section 1: Who am I */}
+  <div style={{ display: 'flex', flexDirection: 'row', gap: 24, width: '100%', alignItems: 'center', marginBottom: 20 }}>
+    <div style={{ display: 'flex', width: 120, justifyContent: 'center', flexShrink: 0 }}>
+      <img id="hk-char" src="https://media.giphy.com/media/A7p8Pz2Jrwvks/giphy.gif" width={110} height={110} style={{ width: 110, height: 110, objectFit: 'contain' }} />
+    </div>
+    <div style={{ display: 'flex', flexDirection: 'column', flex: 1 }}>
+      <span style={{ fontSize: 16, fontWeight: 700, color: '#ffffff', letterSpacing: 0.5, marginBottom: 8, textTransform: 'uppercase', color: '#a78bfa' }}>Who am I?</span>
+      <div style={{ display: 'flex', flexWrap: 'wrap', fontSize: 13, color: 'rgba(255,255,255,0.65)', lineHeight: 1.6 }}>
+        Hi, I'm <span style={{ fontWeight: 600, color: '#ffffff' }}>Karan Marathe</span>. I am a <span style={{ background: 'rgba(255,255,255,0.06)', padding: '1px 6px', borderRadius: 4, color: '#ffffff', border: '1px solid rgba(255,255,255,0.08)' }}>Full Stack Developer</span> and <span style={{ background: 'rgba(255,255,255,0.06)', padding: '1px 6px', borderRadius: 4, color: '#ffffff', border: '1px solid rgba(255,255,255,0.08)' }}>Applied ML Engineer</span> focused on building scalable, intelligent, and high-performance digital products. I combine modern frontend engineering with powerful backend systems and <span style={{ background: 'rgba(255,255,255,0.06)', padding: '1px 6px', borderRadius: 4, color: '#ffffff', border: '1px solid rgba(255,255,255,0.08)' }}>AI capabilities</span> to create seamless, production-ready experiences.
       </div>
     </div>
   </div>
 
-  <div style={{ display: 'flex', flexDirection: 'column', gap: 16, width: 220, flexShrink: 0 }}>
-    <div style={{ position: 'relative', display: 'flex', flex: 1, background: '#08080d', borderRadius: 16, overflow: 'hidden', alignItems: 'center', justifyContent: 'center' }}>
-      <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExZW95cTRnOXM1dTc1YTFwNjRkcGNkN2RqYjdhdTB3NTc3NDFiNjFxYyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/h58dtf5vTpjulO4M5o/giphy.gif" style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', objectFit: 'cover', opacity: 0.3 }} />
-      <div style={{ position: 'relative', display: 'flex', flexDirection: 'column', alignItems: 'center', zIndex: 10 }}>
-        <span style={{ fontSize: 32, fontWeight: 700, color: '#ffffff' }}>🤖</span>
-        <span style={{ fontSize: 11, color: 'rgba(255,255,255,0.4)', letterSpacing: 2, textTransform: 'uppercase', marginTop: 4 }}>ai & ml</span>
+  {/* Divider */}
+  <div style={{ width: '100%', height: 1, background: 'rgba(255,255,255,0.06)', marginBottom: 20 }}></div>
+
+  {/* Section 2: Checklist & Bottom part */}
+  <div style={{ display: 'flex', flexDirection: 'row', gap: 24, width: '100%', flex: 1 }}>
+    <div style={{ display: 'flex', flexDirection: 'column', flex: 1 }}>
+      <div style={{ display: 'flex', alignItems: 'center', marginBottom: 12 }}>
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#a78bfa" strokeWidth="2" style={{ marginRight: 8 }}>
+          <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2" />
+          <circle cx="12" cy="7" r="4" />
+        </svg>
+        <span style={{ fontSize: 15, fontWeight: 700, color: '#ffffff', letterSpacing: 0.5 }}>A Little More About Me</span>
+      </div>
+
+      {/* Checklist items */}
+      <div style={{ display: 'flex', flexDirection: 'column', gap: 8 }}>
+        {[
+          'I love surrounding myself with experienced developers who challenge me to grow.',
+          'Currently building high-performance systems with React, TypeScript & AI.',
+          'Always open to collaborating on open-source projects or mentoring.',
+          'Passionate about large-scale problems that push cognitive limits.',
+          'Minimalist at heart, focused on clean architecture and micro-optimizations.'
+        ].map((item, i) => (
+          <div key={i} style={{ display: 'flex', alignItems: 'center' }}>
+            <div style={{ width: 14, height: 14, border: '1.5px solid #a78bfa', borderRadius: 3, display: 'flex', alignItems: 'center', justifyContent: 'center', marginRight: 10, background: 'rgba(167, 139, 250, 0.08)', flexShrink: 0 }}>
+              <svg width="8" height="8" viewBox="0 0 8 8" fill="none">
+                <path d="M1 4L3 6L7 2" stroke="#a78bfa" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+              </svg>
+            </div>
+            <span style={{ fontSize: 12.5, color: 'rgba(255, 255, 255, 0.75)' }}>{item}</span>
+          </div>
+        ))}
+      </div>
+
+      {/* Mini Brand Icons */}
+      <div style={{ display: 'flex', gap: 12, marginTop: 20, alignItems: 'center' }}>
+        <img src="https://img.icons8.com/color/48/gmail-new.png" width={18} height={18} style={{ width: 18, height: 18 }} />
+        <img src="https://img.icons8.com/color/48/linkedin.png" width={18} height={18} style={{ width: 18, height: 18 }} />
+        <img src="https://img.icons8.com/color/48/spotify.png" width={18} height={18} style={{ width: 18, height: 18 }} />
+        <img src="https://img.icons8.com/ios-glyphs/90/ffffff/github.png" width={18} height={18} style={{ width: 18, height: 18 }} />
       </div>
     </div>
-    <div style={{ position: 'relative', display: 'flex', flex: 1, background: '#08080d', borderRadius: 16, overflow: 'hidden', alignItems: 'center', justifyContent: 'center' }}>
-      <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExemdhbXMwdWNkaDA5eTM4Y3ZjYnYzNTR5YnB0M21jdzlrd2gyczQxNyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/VGh13y4IVFZzCACfTX/giphy.gif" style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', objectFit: 'cover', opacity: 0.3 }} />
-      <div style={{ position: 'relative', display: 'flex', flexDirection: 'column', alignItems: 'center', zIndex: 10 }}>
-        <span style={{ fontSize: 32, fontWeight: 700, color: '#ffffff' }}>☁️</span>
-        <span style={{ fontSize: 11, color: 'rgba(255,255,255,0.4)', letterSpacing: 2, textTransform: 'uppercase', marginTop: 4 }}>cloud & devops</span>
-      </div>
+
+    {/* Right animated character */}
+    <div style={{ display: 'flex', width: 140, justifyContent: 'center', alignItems: 'center', flexShrink: 0 }}>
+      <img id="pixel-char" src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExZW95cTRnOXM1dTc1YTFwNjRkcGNkN2RqYjdhdTB3NTc3NDFiNjFxYyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/h58dtf5vTpjulO4M5o/giphy.gif" width={85} height={85} style={{ width: 85, height: 85, objectFit: 'contain' }} />
     </div>
   </div>
 </div>
